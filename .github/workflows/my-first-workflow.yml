@@ -2,7 +2,7 @@ name: github actions
 on: [push]
 jobs:
   Explore-Github-Actions:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps : 
       - run: echo "je dois utiliser docker"
       
